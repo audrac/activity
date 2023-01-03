@@ -1,0 +1,23 @@
+/* Your tabs CSS code here */
+.tabs {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.tab {
+  padding: 7px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  opacity: 0.4;
+  border-bottom: 3px solid transparent;
+}
+
+.tab:hover {
+  opacity: 0.6;
+  color: black;
+}
+
+.tab.active {
+  opacity: 1;
+  border-bottom: 3px solid #555555;
+}
